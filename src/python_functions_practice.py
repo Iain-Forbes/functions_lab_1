@@ -24,13 +24,27 @@ def add_string_as_number(string_1, string_2):
 
 import calendar
 
-def number_to_full_month_name(x):
-    return calendar.month_name[1]
+def number_to_full_month_name(month):
+    return (calendar.month_name[month])
+    
 
-def number_to_full_month_name_2(x):
-    return calendar.month_name[3]
+def number_to_full_month_name_3(month):
+    return (calendar.month_name[month])
+    
 
-def number_to_full_month_name_3(x):
-    return calendar.month_name[9]
+def number_to_full_month_name_9(month):
+    return (calendar.month_name[month])
+
+def number_to_short_month_name_1(month):
+    return (calendar.month_abbr[month])
+
+def number_to_short_month_name_4(month):
+    return (calendar.month_abbr[month])
+    
+def number_to_short_month_name_10(month):
+    return (calendar.month_abbr[month])
+    
+
+    
 
     
