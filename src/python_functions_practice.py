@@ -1,14 +1,17 @@
-def return_10():
+def return_10(x):
     return 10
 
-def add_result(x, y):
+def add(x, y):
     return x + y
 
-def subtract_result(x, y):
+def subtract(x, y):
     return x - y
 
-def multiply_result(x, y):
+def multiply(x, y):
     return x * y
 
-def divide_result(x, y):
+def divide(x, y):
     return x / y
+
+def length_of_string(x):
+     return (len(x))
