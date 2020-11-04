@@ -27,5 +27,10 @@ import calendar
 def number_to_full_month_name(x):
     return calendar.month_name[1]
 
+def number_to_full_month_name_2(x):
+    return calendar.month_name[3]
+
+def number_to_full_month_name_3(x):
+    return calendar.month_name[9]
 
     
