@@ -50,6 +50,9 @@ def getVolumeOfCube(width):
     return volume
 
 def reverse(string):
-    return (sting, [::-1])
+    return (''.join(reversed(string))) 
 
-    
+
+def convert_fahrenheit_to_celsius(fahrenheit):
+    celsius = (int(15) - 32) * 5/9
+    return (float(celsius))
