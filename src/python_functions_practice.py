@@ -28,23 +28,26 @@ def number_to_full_month_name(month):
     return (calendar.month_name[month])
     
 
-def number_to_full_month_name_3(month):
+def number_to_full_month_name(month):
     return (calendar.month_name[month])
     
 
-def number_to_full_month_name_9(month):
+def number_to_full_month_name(month):
     return (calendar.month_name[month])
 
-def number_to_short_month_name_1(month):
+def number_to_short_month_name(month):
     return (calendar.month_abbr[month])
 
-def number_to_short_month_name_4(month):
+def number_to_short_month_name(month):
     return (calendar.month_abbr[month])
     
-def number_to_short_month_name_10(month):
+def number_to_short_month_name(month):
     return (calendar.month_abbr[month])
     
 
+def getVolumeOfCube(width):
+    volume = width * width * width
+    return volume
     
 
     
