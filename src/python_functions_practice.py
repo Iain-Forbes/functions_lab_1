@@ -48,6 +48,8 @@ def number_to_short_month_name(month):
 def getVolumeOfCube(width):
     volume = width * width * width
     return volume
-    
+
+def reverse(string):
+    return (sting, [::-1])
 
     

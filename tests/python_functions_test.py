@@ -82,9 +82,11 @@ class TestPythonFunctionPractice(unittest.TestCase):
     
 
   #Given a String, return the String reversed
-  @unittest.skip("delete this line to run the test")
+ 
   def test_reverse_string(self):
-    #add test code here
+    reverse_string = reverse ("iain")
+    self.assertEqual("niai", reverse_result)
+
     pass
 
   #Given a value in farenheit, convert this into celsius.
