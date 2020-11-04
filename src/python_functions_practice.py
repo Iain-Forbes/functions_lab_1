@@ -21,3 +21,11 @@ def join_string(string_1, string_2):
 
 def add_string_as_number(string_1, string_2):
     return (int(string_1) + int(string_2))
+
+import calendar
+
+def number_to_full_month_name(x):
+    return calendar.month_name[1]
+
+
+    
